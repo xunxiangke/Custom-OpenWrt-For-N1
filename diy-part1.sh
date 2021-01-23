@@ -21,5 +21,5 @@ sed -i '$a src-git fw876 https://github.com/fw876/helloworld' feeds.conf.default
 git clone https://github.com/tuanqing/install-program package/install-program
 rm -rf package/lean/luci-theme-argon
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git
-git clone https://github.com/jerrykuku/lua-maxminddb.git package/lean
-git clone https://github.com/jerrykuku/luci-app-vssr.git package/lean
+git clone https://github.com/jerrykuku/lua-maxminddb package/lean/lua-maxminddb
+git clone https://github.com/jerrykuku/luci-app-vssr package/lean/luci-app-vssr
