@@ -18,3 +18,4 @@ sed -i '$a src-git xiaorouji https://github.com/xiaorouji/openwrt-passwall' feed
 
 #Add custom package
 git clone https://github.com/tuanqing/install-program package/install-program
+git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git
